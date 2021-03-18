@@ -24,7 +24,7 @@ const server =
           // Process the queries here
           res.statusCode = 200      //code for OK
           res.setHeader('Content-Type', 'text/plain')
-          res.write(`Cube root of ${x} is ${Math.ceil(x)}`)
+          res.write(`Ceil of ${x} is ${Math.ceil(x)}`)
           res.end();
         
       } else {
